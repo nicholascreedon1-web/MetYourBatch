@@ -206,7 +206,7 @@ function showNotification(message, type) {
 // Generate email content for demonstration
 function generateEmailContent(orderData) {
     const emailContent = `
-Subject: New Decorated Sugar Cookie Order Request - ${orderData.name}
+Subject: New Cookie Order Request - Hannah's Cookie Corner - ${orderData.name}
 
 Order Details:
 - Name: ${orderData.name}
