@@ -168,29 +168,31 @@ body {
 }
 
 .cta-button.primary {
-    background: linear-gradient(45deg, #F8D8D8, #A6C5D7);
+    background: linear-gradient(45deg, #6B5B5B, #5a4a4a);
     color: white;
-    box-shadow: 0 4px 15px rgba(248, 216, 216, 0.4);
+    box-shadow: 0 6px 20px rgba(107, 91, 91, 0.4);
+    border: none;
 }
 
 .cta-button.primary:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 25px rgba(166, 197, 215, 0.5);
-    background: linear-gradient(45deg, #A6C5D7, #C9D8C5);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 30px rgba(107, 91, 91, 0.6);
+    background: linear-gradient(45deg, #5a4a4a, #4a3a3a);
 }
 
 .cta-button.secondary {
-    background: transparent;
+    background: white;
     color: #6B5B5B;
-    border: 2px solid #F8D8D8;
-    box-shadow: 0 4px 15px rgba(248, 216, 216, 0.2);
+    border: 3px solid #6B5B5B;
+    box-shadow: 0 6px 20px rgba(255, 255, 255, 0.8);
 }
 
 .cta-button.secondary:hover {
-    transform: translateY(-2px);
-    background: rgba(248, 216, 216, 0.1);
-    border-color: #A6C5D7;
-    color: #A6C5D7;
+    transform: translateY(-3px);
+    background: #6B5B5B;
+    border-color: #6B5B5B;
+    color: white;
+    box-shadow: 0 8px 30px rgba(107, 91, 91, 0.4);
 }
 
 .hero-image {
@@ -759,22 +761,22 @@ body {
 
 .instagram-btn {
     background: linear-gradient(45deg, #F58529, #E4405F);
-    box-shadow: 0 4px 15px rgba(228, 64, 95, 0.3);
+    box-shadow: 0 6px 20px rgba(228, 64, 95, 0.4);
 }
 
 .instagram-btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 25px rgba(228, 64, 95, 0.4);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 30px rgba(228, 64, 95, 0.6);
 }
 
 .tiktok-btn {
     background: linear-gradient(45deg, #000000, #333333);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
 }
 
 .tiktok-btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
 }
 
 /* Order Section */
@@ -863,7 +865,7 @@ body {
 
 .submit-btn {
     width: 100%;
-    background: linear-gradient(45deg, #F8D8D8, #A6C5D7);
+    background: linear-gradient(45deg, #6B5B5B, #5a4a4a);
     color: white;
     padding: 1rem;
     border: none;
@@ -872,13 +874,13 @@ body {
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(248, 216, 216, 0.4);
+    box-shadow: 0 6px 20px rgba(107, 91, 91, 0.4);
 }
 
 .submit-btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 25px rgba(166, 197, 215, 0.5);
-    background: linear-gradient(45deg, #A6C5D7, #C9D8C5);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 30px rgba(107, 91, 91, 0.6);
+    background: linear-gradient(45deg, #5a4a4a, #4a3a3a);
 }
 
 /* Next Steps Section */
