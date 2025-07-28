@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You've Met Your Batch - Custom Homemade Cookies</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-logo">
+                <i class="fas fa-cookie-bite"></i>
+                <span>You've Met Your Batch</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#menu">Events</a></li>
+                <li><a href="#social">Social</a></li>
+                <li><a href="#order">Order Now</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>You've Met Your <span>Batch</span></h1>
+            <p>Beautiful custom decorated sugar cookies, handcrafted with love for your special moments!</p>
+            <p class="hero-tagline">Batch made for your big day ✨</p>
+            <div class="hero-buttons">
+                <a href="#order" class="cta-button primary">Let's Bake This Happen!</a>
+                <a href="#gallery" class="cta-button secondary">View Cookie Designs</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="hero-visual">
+                <img src="images/cookies.png" alt="Beautiful decorated sugar cookies" class="hero-cookie-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Our Decorated Sugar Cookies</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Welcome to You've Met Your Batch! We specialize in creating stunning custom decorated sugar cookies that are almost too beautiful to eat. Each cookie is hand-cut, baked fresh, and decorated with royal icing to bring your vision to life. Perfect for any celebration or special occasion!</p>
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-heart"></i>
+                            <h3>Hand-Decorated</h3>
+                            <p>Every sugar cookie is individually decorated with precision royal icing techniques</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-leaf"></i>
+                            <h3>Fresh & Delicious</h3>
+                            <p>Made with premium butter, pure vanilla, and the finest ingredients</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-palette"></i>
+                            <h3>Artistic Designs</h3>
+                            <p>Beautiful custom designs with intricate details, colors, and patterns</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Our Cookie Gallery</h2>
+            <p class="gallery-subtitle">Every cookie tells a story - here are some of our favorite creations!</p>
+            
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">All Designs</button>
+                <button class="filter-btn" data-filter="weddings">Weddings</button>
+                <button class="filter-btn" data-filter="baby">Baby Showers</button>
+                <button class="filter-btn" data-filter="holidays">Holidays</button>
+                <button class="filter-btn" data-filter="birthdays">Birthdays</button>
+                <button class="filter-btn" data-filter="corporate">Corporate</button>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="weddings">
+                    <div class="placeholder-image">
+                        <i class="fas fa-image"></i>
+                        <span>Wedding Cookie Set</span>
+                        <small>Elegant lace and floral designs</small>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="baby">
+                    <div class="placeholder-image">
+                        <i class="fas fa-image"></i>
+                        <span>Baby Shower Cookies</span>
+                        <small>Adorable pastel designs</small>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="holidays">
+                    <div class="placeholder-image">
+                        <i class="fas fa-image"></i>
+                        <span>Christmas Collection</span>
+                        <small>Festive holiday magic</small>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="birthdays">
+                    <div class="placeholder-image">
+                        <i class="fas fa-image"></i>
+                        <span>Birthday Celebration</span>
+                        <small>Custom age and theme cookies</small>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="weddings">
+                    <div class="placeholder-image">
+                        <i class="fas fa-image"></i>
+                        <span>Bridal Shower Treats</span>
+                        <small>Romantic and delicate details</small>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="corporate">
+                    <div class="placeholder-image">
+                        <i class="fas fa-image"></i>
+                        <span>Corporate Event Cookies</span>
+                        <small>Professional logo designs</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>Sweet Words from Our Customers</h2>
+            <p class="testimonials-subtitle">Nothing makes us happier than seeing the joy our cookies bring!</p>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial">
+                    <div class="stars">★★★★★</div>
+                    <p>"The cookies were absolutely stunning and tasted amazing! Everyone at our wedding kept asking where we got them. You truly are an artist!"</p>
+                    <div class="testimonial-author">
+                        <strong>Sarah & Mike</strong>
+                        <span>Wedding Cookies</span>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="stars">★★★★★</div>
+                    <p>"I've never seen such detailed work! The baby shower cookies were the hit of the party. Thank you for making our day so special."</p>
+                    <div class="testimonial-author">
+                        <strong>Jessica M.</strong>
+                        <span>Baby Shower</span>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="stars">★★★★★</div>
+                    <p>"Professional, creative, and delicious! Our corporate event cookies had everyone talking. Will definitely order again!"</p>
+                    <div class="testimonial-author">
+                        <strong>David L.</strong>
+                        <span>Corporate Event</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>Events We Create Cookies For</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <h3>Birthday Parties</h3>
+                    <p>Custom age numbers, birthday themes, favorite characters, and personalized designs to make their special day even sweeter</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Weddings & Anniversaries</h3>
+                    <p>Elegant wedding favors, bridal shower treats, save-the-date cookies, and romantic anniversary celebrations</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Holiday Celebrations</h3>
+                    <p>Christmas, Halloween, Valentine's Day, Easter, Thanksgiving, and all your favorite seasonal celebrations</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Baby Showers & Gender Reveals</h3>
+                    <p>Adorable baby-themed designs, gender reveal surprises, and welcome baby celebration cookies</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Corporate Events</h3>
+                    <p>Company logos, employee appreciation, grand openings, product launches, and professional networking events</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Graduations & Achievements</h3>
+                    <p>Graduation parties, sports victories, promotions, retirements, and milestone celebrations of all kinds</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section id="social" class="social">
+        <div class="container">
+            <h2>Follow Our Sweet Creations</h2>
+            <p class="social-subtitle">See our latest decorated sugar cookies and behind-the-scenes content!</p>
+            
+            <div class="social-platforms">
+                <div class="social-platform">
+                    <div class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <h3>Instagram</h3>
+                    <p>Daily posts of our latest cookie designs, process videos, and customer features</p>
+                    <a href="https://instagram.com/youvemetyourbatch" target="_blank" class="social-link">@youvemetyourbatch</a>
+                </div>
+                
+                <div class="social-platform">
+                    <div class="social-icon">
+                        <i class="fab fa-tiktok"></i>
+                    </div>
+                    <h3>TikTok</h3>
+                    <p>Fun decorating tutorials, quick tips, and satisfying cookie decorating videos</p>
+                    <a href="https://tiktok.com/@youvemetyourbatch" target="_blank" class="social-link">@youvemetyourbatch</a>
+                </div>
+            </div>
+            
+            
+            <div class="social-cta">
+                <p>Get inspired and stay updated with our latest creations!</p>
+                <div class="social-buttons">
+                    <a href="https://instagram.com/youvemetyourbatch" target="_blank" class="social-btn instagram-btn">
+                        <i class="fab fa-instagram"></i> Follow on Instagram
+                    </a>
+                    <a href="https://tiktok.com/@youvemetyourbatch" target="_blank" class="social-btn tiktok-btn">
+                        <i class="fab fa-tiktok"></i> Follow on TikTok
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Section -->
+    <section id="order" class="order">
+        <div class="container">
+            <h2>Place Your Custom Order</h2>
+            <p class="order-subtitle">Tell us about your decorated sugar cookie vision and we'll bring it to life!</p>
+            
+            <form class="order-form" id="orderForm">
+                <div class="form-group">
+                    <label for="name">Your Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="event-type">Event Type</label>
+                        <select id="event-type" name="event-type">
+                            <option value="">Select an option</option>
+                            <option value="birthday">Birthday Party</option>
+                            <option value="wedding">Wedding</option>
+                            <option value="corporate">Corporate Event</option>
+                            <option value="holiday">Holiday Celebration</option>
+                            <option value="baby-shower">Baby Shower</option>
+                            <option value="graduation">Graduation</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="quantity">Estimated Quantity *</label>
+                        <select id="quantity" name="quantity" required>
+                            <option value="">Select quantity</option>
+                            <option value="1-12">1-12 cookies</option>
+                            <option value="13-24">13-24 cookies</option>
+                            <option value="25-50">25-50 cookies</option>
+                            <option value="51-100">51-100 cookies</option>
+                            <option value="100+">100+ cookies</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="needed-date">When do you need them? *</label>
+                    <input type="date" id="needed-date" name="needed-date" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="design-details">Tell Us About Your Special Occasion</label>
+                    <textarea id="design-details" name="design-details" rows="4" placeholder="Please share a brief description of your special occasion or celebration. We pride ourselves on creating fantastic designs for any event! If you have specific design ideas or inspiration in mind, feel free to share those as well - but know that we're here to be your creative experts."></textarea>
+                </div>
+                
+                
+                <button type="submit" class="submit-btn">Sweet! Let's Start Baking</button>
+            </form>
+            
+            <div class="next-steps">
+                <h3>What to Expect Next</h3>
+                <p>After you submit your order request, here's what happens:</p>
+                <div class="steps-list">
+                    <div class="step">
+                        <span class="step-number">1</span>
+                        <div class="step-content">
+                            <strong>We'll contact you within 24 hours</strong>
+                            <p>We'll reach out via email or phone to discuss your vision and provide a custom quote</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <span class="step-number">2</span>
+                        <div class="step-content">
+                            <strong>Design consultation</strong>
+                            <p>We'll work together to perfect your cookie design and finalize all details</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <span class="step-number">3</span>
+                        <div class="step-content">
+                            <strong>Creation & delivery</strong>
+                            <p>Once approved, we'll create your beautiful cookies and arrange pickup or delivery</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="order-info">
+                <div class="info-item">
+                    <i class="fas fa-clock"></i>
+                    <h3>Lead Time</h3>
+                    <p>Please allow 5-7 days for custom decorated designs</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Custom Quotes</h3>
+                    <p>Personalized pricing based on your specific design needs</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-truck"></i>
+                    <h3>Delivery</h3>
+                    <p>Local delivery available or pickup options</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>orders@youvemetyourbatch.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <h3>Phone</h3>
+                    <p>(555) 123-COOKIE</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-instagram"></i>
+                    <h3>Follow Us</h3>
+                    <p>@youvemetyourbatch</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2>Cookie Care & FAQ</h2>
+            <p class="faq-subtitle">Everything you need to know about caring for your custom cookies</p>
+            
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>How long do decorated cookies stay fresh?</h3>
+                    <p>Our decorated sugar cookies stay fresh for up to 2 weeks when stored in an airtight container at room temperature. For best taste, enjoy within the first week!</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Can I freeze the cookies?</h3>
+                    <p>Yes! Decorated cookies freeze beautifully for up to 3 months. Place in airtight containers with parchment between layers. Thaw at room temperature when ready to enjoy.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Do you have any dietary restrictions I should know about?</h3>
+                    <p>Our cookies contain gluten, eggs, and dairy. Please let us know about any allergies or dietary concerns when placing your order so we can discuss ingredients and ensure they're safe for your guests.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>How should I store my cookies?</h3>
+                    <p>Store in a cool, dry place in an airtight container. Avoid refrigeration as it can cause condensation. Keep away from direct sunlight to preserve the beautiful icing colors.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>What's your minimum order?</h3>
+                    <p>We typically work with orders starting at one dozen cookies, but we're happy to discuss smaller quantities for special circumstances. Each order is custom-quoted based on your needs.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Do you deliver?</h3>
+                    <p>Yes! We offer local delivery within 20 miles for a small fee. We also provide convenient pickup options at our location. Delivery details will be arranged during your consultation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-cookie-bite"></i>
+                    <span>You've Met Your Batch</span>
+                </div>
+                <p>&copy; 2025 You've Met Your Batch. Made with ❤️ and lots of cookies!</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
